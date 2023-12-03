@@ -1,0 +1,98 @@
+@import url(Reset.css);
+
+/* GENERAL STYLES */
+
+@font-face {
+    font-family: 'burbank_big_condensedblack';
+    src: url('../Fonts/fortnite-webfont.woff2') format('woff2'),
+         url('../Fonts/fortnite-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body , button , textarea   {
+    font-family:'burbank_big_condensedblack' ;
+
+}
+
+body    {
+
+        background: rgb(0,83,65);
+        background: linear-gradient(180deg, rgba(0,83,65,1) 0%, rgba(219,255,163,0.6194852941176471) 76%);
+
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+        
+
+    
+}
+
+
+/* CONTAINER STYLES */
+
+.container  {
+    background-color: #b688b0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 200px;
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 27%;
+    border-radius: 10px;
+}
+
+    /* H1 */
+
+.container h1 {
+    font-size: 40px;
+    border-bottom: dashed 5px rgb(255, 162, 227);
+}
+
+    /* TEXTAREA */
+
+.container #txtarea {
+    margin-top: 20px;
+    font-size: 40px;
+    width: 95%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+    /* BUTTONS */
+
+    #buttons  button  {
+        background-color: rgb(73, 73, 73);
+       padding: 25px;
+       margin: 20px 50px;
+       border-radius: 5px;
+       font-size: 25px;
+       color: #fcfcfc;
+       
+       
+    }
+
+    #buttons  button:hover  {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+
+    #buttons .copy  {
+        background-color: rgb(49, 141, 49);
+
+    }
+
+    #buttons .remove  {
+        background-color: rgb(209, 77, 72);
+    }
+
+    #buttons .addran  {
+        background-color: rgb(145, 134, 139);
+    }
